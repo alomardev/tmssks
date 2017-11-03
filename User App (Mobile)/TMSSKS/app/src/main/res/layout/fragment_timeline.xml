@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kfu.ccsit.tmssks.FragmentTimeline">
+
+    <Spinner
+        android:id="@+id/spinner_kids"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/grid_2"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <View
+            android:layout_width="@dimen/grid_1"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="38dp"
+            android:layout_marginRight="38dp"
+            android:background="@color/timeline"/>
+
+        <ListView
+            android:id="@+id/list_timeline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"/>
+
+        <android.support.v4.widget.ContentLoadingProgressBar
+            android:layout_width="wrap_content"
+            android:indeterminate="true"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/empty_view"
+            android:layout_width="wrap_content"
+            android:text="Loading..."
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <include layout="@layout/shadow_horizontal"
+                 android:layout_width="match_parent"
+                 android:layout_height="@dimen/shadow_size"/>
+
+    </FrameLayout>
+</LinearLayout>

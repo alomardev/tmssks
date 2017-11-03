@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TMSSKS Device Simulator:jar">
+    <output-path>$PROJECT_DIR$/dist/</output-path>
+    <root id="archive" name="TMSSKS Device Simulator.jar">
+      <element id="module-output" name="TMSSKS Device Simulator" />
+      <element id="directory" name="routes">
+        <element id="dir-copy" path="$PROJECT_DIR$/routes" />
+      </element>
+    </root>
+  </artifact>
+</component>

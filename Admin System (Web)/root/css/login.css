@@ -1,0 +1,21 @@
+.card {
+
+}
+
+#login-form table input {
+	width: 100%;
+}
+
+#login-form input[type=submit], #login-form input[type=checkbox], #login-form label {
+	margin-top: 5px;
+}
+
+#remember-cell {
+	vertical-align: middle;
+	padding: 0px;
+}
+
+#login-form input[type=checkbox], #login-form label {
+	width: auto;
+	display: inline-block;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#455a64</color>
+    <color name="colorPrimaryDark">#37474f</color>
+    <color name="colorPrimaryLight">#B0BEC5</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorAccentDark">#F57C00</color>
+    <color name="colorAccentLight">#FFE082</color>
+
+    <color name="button_normal">@color/colorAccent</color>
+    <color name="button_pressed">@color/colorAccentDark</color>
+
+    <color name="timeline">@color/colorPrimaryDark</color>
+</resources>

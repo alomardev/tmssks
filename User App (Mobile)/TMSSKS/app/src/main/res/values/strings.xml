@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">TMSSKS</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="dialog_positive_text_ok">OK</string>
+    <string name="dialog_negative_text_cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="done">Done</string>
+    <string name="pref_key_master_enable">master_enable</string>
+    <string name="pref_key_alert_enable">alert_enable</string>
+    <string name="pref_key_alert_time">alert_time</string>
+    <string name="pref_key_monitor_start_time">monitor_start_time</string>
+    <string name="pref_key_monitor_end_time">monitor_end_time</string>
+    <string name="about_app">This Android application is a companion app for \"Transport Monitoring System for School Kids Safety\", TMSSKS for short. It aims to provide monitoring mechanism for registered kids in the system so whenever they entered or left a bus or a school. Also it shows a quickly-accessed timeline lists the time of kids records. TMSSKS app is for Parents only.</string>
+    <string name="about_project">This application is one of the outcomes of the graduation project title \"Transport Monitoring System for School Kids Safety\". Sponsored by College of Computer Sciences and Information Technology, King Faisal University.\n\nDone by:\nAbdulrahman Mohammed Al\'omar\nAmmar Abdullah Al\'abdulqader\nKhalid Ali Alshehri\n\nSupervised by:\nDr. Shakeel Ahmed\n\nCommittee Members:\nDr. Mohammed Billal\nDr. Sayd Afaq Husain\n\n(Spring 2017)</string>
+    <string name="title_activity_maps">Monitoring Map</string>
+
+</resources>

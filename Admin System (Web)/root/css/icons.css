@@ -1,0 +1,33 @@
+.icon-btn {
+	min-width: 24px;
+	min-height: 24px;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 6px;
+}
+
+.icon-btn:hover {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.icon-btn:active {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.ic_add {
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-image: url(../res/drawable/icons.svg);
+}
+
+.ic_remove {
+	background-position: 0 -24px;
+	background-repeat: no-repeat;
+	background-image: url(../res/drawable/icons.svg);
+}
+
+.ic_show {
+	background-position: 0 -48px;
+	background-repeat: no-repeat;
+	background-image: url(../res/drawable/icons.svg);
+}

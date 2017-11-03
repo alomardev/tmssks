@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorPrimaryDark"
+              android:gravity="center_vertical"
+              android:orientation="vertical"
+              android:theme="@style/AppBarTheme"
+              tools:context="kfu.ccsit.tmssks.ActivityLogin">
+
+    <ImageView
+        android:id="@+id/setting_activator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/grid_8"
+        android:layout_marginRight="@dimen/grid_8"
+        android:layout_marginTop="@dimen/grid_4"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/grid_2"
+        android:layout_marginRight="@dimen/grid_2"
+        android:text="Transport Monitoring System"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/grid_12"
+        android:layout_marginLeft="@dimen/grid_2"
+        android:layout_marginRight="@dimen/grid_2"
+        android:text="for School Kids Safety"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/grid_1"
+        android:layout_marginLeft="@dimen/grid_8"
+        android:layout_marginRight="@dimen/grid_8"
+        android:hint="Username"
+        android:typeface="monospace"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/grid_2"
+        android:layout_marginLeft="@dimen/grid_8"
+        android:layout_marginRight="@dimen/grid_8"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/MaterialButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/grid_4"
+        android:layout_marginLeft="@dimen/grid_8"
+        android:layout_marginRight="@dimen/grid_8"
+        android:onClick="onClick"
+        android:text="Login"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+</LinearLayout>

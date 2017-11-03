@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Notifications">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_key_master_enable"
+            android:title="Enable"/>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="@string/pref_key_master_enable"
+            android:key="@string/pref_key_alert_enable"
+            android:summary="When a kid takes long time being in the bus, an alert shall be shown"
+            android:title="Latency alert"/>
+
+        <kfu.ccsit.tmssks.prefs.RangePreference
+            android:defaultValue="45"
+            android:dependency="@string/pref_key_alert_enable"
+            android:key="@string/pref_key_alert_time"
+            android:summary="The time since the kid entered the bus for the alert (set to [auto] minutes)"
+            android:title="Alert time"
+            app:dialogTitle="Time Offset"
+            app:max="180"
+            app:min="30"
+            app:valuePattern="[n] minute(s)"/>
+
+        <kfu.ccsit.tmssks.prefs.TimePreference
+            android:defaultValue="0500"
+            android:dependency="@string/pref_key_master_enable"
+            android:key="@string/pref_key_monitor_start_time"
+            android:summary="Monitoring start time: [auto]"
+            android:title="Start time"
+            app:dialogTitle="Start Time"/>
+
+        <kfu.ccsit.tmssks.prefs.TimePreference
+            android:defaultValue="1400"
+            android:dependency="@string/pref_key_master_enable"
+            android:key="@string/pref_key_monitor_end_time"
+            android:summary="Monitoring end time: [auto]"
+            android:title="End time"
+            app:dialogTitle="End Time"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Debugging">
+        <EditTextPreference
+            android:key="localhost_ip"
+            android:summary="Configure localhost IP"
+            android:defaultValue="192.168.1.8"
+            android:title="Localhost IP"/>
+        <CheckBoxPreference
+            android:key="use_seconds"
+            android:summary="Use seconds for alerting time instead of minutes"
+            android:title="Seconds"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:zAdjustment="bottom"
+    android:shareInterpolator="false">
+    <scale
+        android:fromXScale="0.86"
+        android:toXScale="1.0"
+        android:fromYScale="0.86"
+        android:toYScale="1.0"
+        android:pivotX="50%p"
+        android:pivotY="50%p"
+        android:interpolator="@anim/interpolator_decelerate_quint"
+        android:duration="320" />
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:interpolator="@anim/interpolator_decelerate_cubic"
+        android:fillAfter="true"
+        android:fillBefore="true"
+        android:fillEnabled="true"
+        android:duration="320" />
+</set>

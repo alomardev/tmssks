@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Preference fragment padding, bottom -->
+    <dimen name="preference_fragment_padding_bottom">0dp</dimen>
+    <!-- Preference fragment padding, sides -->
+    <dimen name="preference_fragment_padding_side">0dp</dimen>
+
+    <dimen name="grid_1">4dp</dimen>
+    <dimen name="grid_2">8dp</dimen>
+    <dimen name="grid_3">12dp</dimen>
+    <dimen name="grid_4">16dp</dimen>
+    <dimen name="grid_5">20dp</dimen>
+    <dimen name="grid_6">24dp</dimen>
+    <dimen name="grid_7">28dp</dimen>
+    <dimen name="grid_8">32dp</dimen>
+    <dimen name="grid_9">36dp</dimen>
+    <dimen name="grid_10">40dp</dimen>
+    <dimen name="grid_11">44dp</dimen>
+    <dimen name="grid_12">48dp</dimen>
+    <dimen name="grid_13">52dp</dimen>
+    <dimen name="grid_14">56dp</dimen>
+    <dimen name="grid_15">60dp</dimen>
+    <dimen name="grid_16">64dp</dimen>
+    <dimen name="grid_17">68dp</dimen>
+    <dimen name="grid_18">72dp</dimen>
+    <dimen name="grid_19">76dp</dimen>
+    <dimen name="grid_20">80dp</dimen>
+
+    <dimen name="shadow_size">9dp</dimen>
+
+    <dimen name="status_bar_padding">0dp</dimen>
+    <dimen name="drawer_header_height">170dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="nav_item_icon_padding">@dimen/grid_4</dimen>
+    <dimen name="nav_item_title_padding">@dimen/grid_8</dimen>
+    <dimen name="nav_item_height">52dp</dimen>
+    <dimen name="nav_item_text_size">16sp</dimen>
+
+    <dimen name="button_inset_horizontal">4dp</dimen>
+    <dimen name="button_inset_vertical">6dp</dimen>
+    <dimen name="control_corner">2dp</dimen>
+    <dimen name="button_padding_vertical">6dp</dimen>
+    <dimen name="button_padding_horizontal">10dp</dimen>
+
+    <dimen name="fab_pad">96dp</dimen>
+
+</resources>

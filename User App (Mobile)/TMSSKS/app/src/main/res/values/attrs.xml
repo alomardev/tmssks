@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NavigationItem">
+        <attr name="attentionText" format="string" />
+        <attr name="tintColor" format="color" />
+        <attr name="navIcon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomPreferences">
+        <attr name="entries" format="reference" />
+        <attr name="entryValues" format="reference" />
+        <attr name="dialogTitle" format="string" />
+        <attr name="dialogMessage" format="string" />
+        <attr name="positiveButtonText" format="string" />
+        <attr name="negativeButtonText" format="string" />
+        <attr name="valuePattern" format="string" />
+        <attr name="max" format="integer" />
+        <attr name="min" format="integer" />
+    </declare-styleable>
+</resources>

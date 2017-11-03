@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/drawer_header" />
+
+        <kfu.ccsit.tmssks.NavigationItem
+            android:id="@+id/nav_timeline"
+            style="@style/NavigationItemStyle"
+            android:layout_marginTop="@dimen/grid_2"
+            android:text="Timeline"
+            app:navIcon="@drawable/ic_timeline" />
+
+        <kfu.ccsit.tmssks.NavigationItem
+            android:id="@+id/nav_kids"
+            style="@style/NavigationItemStyle"
+            android:text="My Kids"
+            app:navIcon="@drawable/ic_people" />
+
+        <kfu.ccsit.tmssks.NavigationItem
+            android:id="@+id/nav_messages"
+            style="@style/NavigationItemStyle"
+            android:enabled="false"
+            android:text="Messages"
+            app:navIcon="@drawable/ic_messages" />
+
+        <View style="@style/DividerView" />
+
+        <kfu.ccsit.tmssks.NavigationItem
+            android:id="@+id/nav_settings"
+            style="@style/NavigationItemStyle"
+            android:text="Settings"
+            app:navIcon="@drawable/ic_settings" />
+
+        <kfu.ccsit.tmssks.NavigationItem
+            android:id="@+id/nav_about"
+            style="@style/NavigationItemStyle"
+            android:text="About"
+            app:navIcon="@drawable/ic_about" />
+
+        <kfu.ccsit.tmssks.NavigationItem
+            android:id="@+id/nav_feedback"
+            style="@style/NavigationItemStyle"
+            android:text="Feedback"
+            app:navIcon="@drawable/ic_email" />
+    </LinearLayout>
+</ScrollView>
